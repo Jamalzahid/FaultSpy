@@ -5,7 +5,8 @@ Android Fault Spy is the most simplest and light weight library that helps andro
 1. Detect ANR
 2. Detect a function which is approaching ANR limit and send report to firebase prior to ANR occurrence.
 3. Detect Crash
-4. Prevent from down ranking your app on google play console by exiting app prior to anr or crash occurrence.
+4. Detect an unexpected error that disrupts the app's normal operation, leading to it forcefully closing, and send a report to Firebase before the crash or exception occurs.
+5. Prevent from down ranking your app on google play console by exiting app prior to anr or crash occurrence.
 
 ### What is Android ANR (Application Not Responding)
 when a developer do most heavy jobs on UI thread (more than 5 seconds usually) and UI thread still receive more request/events for doing a task then Android system raises ANR message. This is extremely bad effect on your app and may lead to the failure of your business.
