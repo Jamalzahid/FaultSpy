@@ -1,5 +1,5 @@
-### Android ANR Spy
-Android Fault Spy is the most simplest library that helps android developers to detect ANRs and crashes. The FaultSpy library helps in detecting and reporting Application Not Responding (ANR) and crash issues in Android applications. It provides integration with Firebase Crashlytics for reporting and allows setting custom actions when an ANR or Crash is detected.
+### Android Fault Spy
+Android Fault Spy is the most simplest and light weight library that helps android developers to detect ANRs and crashes. The FaultSpy library helps in detecting and reporting Application Not Responding (ANR) and crash issues in Android applications. It provides integration with Firebase Crashlytics for reporting and allows setting custom actions when an ANR or Crash is detected.
 
 ### Features
 1. Detect ANR
@@ -82,10 +82,10 @@ open class BaseActivity : AppCompatActivity() {
 By setting up FirebaseCrashlytics, you will receive reports in the form of fatal exceptions (not ANR/crash). This means if any function is approaching the ANR limit or Error occurs, a report will be sent to Firebase. This can help in identifying potential ANR or Error issues before they cause a crash.
 
 #### Preventing ANR Reports to Google Play Console:
-By setting an app action such as AppAction.AppActionExit, the library will prevent ANR from being reported to the Google Play Console by exiting the application before the ANR occurs.
+By setting an app action such as AppAction.AppActionExit, the library will prevent ANR and Crashes from being reported to the Google Play Console by exiting the application before the ANR or Crash occurs.
 
 ## Change Log
-**version 1.0**
+**version 1.0.0**
 Initial release
 
 ## Support Me
